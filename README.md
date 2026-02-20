@@ -9,6 +9,7 @@ Get Zulip notifications for your Redmine issues!
 | 1.x                          | 3.x             |
 | 2.x                          | 3.x             |
 | 3.x                          | 4.x             |
+| 4.x                          | 5.x / 6.x       |
 
 ## Installing
 
@@ -40,20 +41,20 @@ corner, then click on **Plugins**.
 Find the **Redmine Zulip** plugin, and click **Configure**. You must now set the
 following:
 
-* Zulip URL (e.g `https://yourZulipDomain.zulipchat.com/`)
-* Zulip Bot E-mail
-* Zulip Bot API key
-* Stream name __*__
-* Issue updates subject __*__
-* Version updates subject __*__
+- Zulip URL (e.g `https://yourZulipDomain.zulipchat.com/`)
+- Zulip Bot E-mail
+- Zulip Bot API key
+- Stream name **\***
+- Issue updates subject **\***
+- Version updates subject **\***
 
-_* You may set dynamic values by using the following self-explanatory
+_\* You may set dynamic values by using the following self-explanatory
 variables:_
 
-* ${issue_id}
-* ${issue_subject}
-* ${project_name}
-* ${version_name}
+- ${issue_id}
+- ${issue_subject}
+- ${project_name}
+- ${version_name}
 
 #### Project settings
 
